@@ -17,7 +17,7 @@ public static void main(String[] args) {
 		//    The first value is "pi.charAt(0)", the second is "pi.charAt(1)", etc.
 		//    Run your program to see how this works.
 
-	// TODO Auto-generated method stub
+	//TODO Auto-generated method stub
 pi.charAt(0);
 pi.charAt(1);
 pi.charAt(2);
@@ -46,12 +46,10 @@ String next =JOptionPane.showInputDialog("What is the next digit of pi?");
 if (next.equals(pi.charAt(i1)+"")){
 					// 7. If they are correct, print out "correct".
 JOptionPane.showMessageDialog(null, "Correct!");}
-	
 					// 8. If they are not, print out "incorrect" and tell them
 					//    to start over. Use 'break;' to break out of the loop.
 else {JOptionPane.showMessageDialog(null, "Incorrect!");}
 	break;
-	
 }
 }
 }
