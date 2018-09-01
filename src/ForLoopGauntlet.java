@@ -20,12 +20,25 @@ public static void main(String[] args) {
 //		else {
 //			System.out.println(i+" is odd");
 //		}}
-		for (int j = 0; j < 784; j+=7) {
-	System.out.println(j);
+	//	for (int j = 0; j < 784; j+=7) {
+//	System.out.println(j);
+//			}
+	//	int age = 0;
+		//for (int i = 2002; i < 2019; i++) {
+			//System.out.println(i+" I was "+age);
+			//age++;
+		//}
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				System.out.println(i+" "+j);
 			}
-		for (int i = 2002; i < 2019; i++) {
-			System.out.println();
 		}
+		for (int i = 0; i < 4; i++) {
+			for (int j = 1; j < 9; j++) {
+				
+			}
+		}
+		
 	}
 }
 
