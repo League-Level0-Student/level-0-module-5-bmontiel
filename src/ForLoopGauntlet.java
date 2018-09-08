@@ -1,3 +1,4 @@
+import java.awt.print.Printable;
 
 public class ForLoopGauntlet {
 public static void main(String[] args) {
@@ -28,16 +29,30 @@ public static void main(String[] args) {
 			//System.out.println(i+" I was "+age);
 			//age++;
 		//}
-		for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-				System.out.println(i+" "+j);
-			}
+	//	for (int i = 0; i < 3; i++) {
+		//	for (int j = 0; j < 3; j++) {
+			//	System.out.println(i+" "+j);
+			//}
+		//}
+//		for (int i = 0; i < 7; i+=3) {
+//			for (int j = 1; j < 4; j++) {
+//				System.out.print(i+j);
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 0; i < 91; i+=10) {
+//			for (int j = 1; j < 11; j++) {
+//				System.out.print(i+j);
+//			}
+//			System.out.println();
+//		}
+	for (int i = 0; i < 6; i+=2) {
+		for (int j = 0; j < 1; j++) {
+			System.out.print("*");
 		}
-		for (int i = 0; i < 4; i++) {
-			for (int j = 1; j < 9; j++) {
-				
-			}
-		}
+		System.out.println();
+	}
+		
 		
 	}
 }
